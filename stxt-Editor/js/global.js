@@ -20,8 +20,13 @@ var toolbarOptions = [
 
 var quill = new Quill('#editor-container', {
   modules: {
+    syntax: true,
     toolbar: toolbarOptions
   },
   placeholder: '请输入内容...',
   theme: 'snow'  // or 'bubble'
+});
+
+hljs.configure({   // optionally configure hljs
+  languages: ['javascript', 'ruby', 'python']
 });
