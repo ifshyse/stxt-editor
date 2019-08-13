@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="language" content="english">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="">
+
+  <!-- Include Quill stylesheet -->
+  <link href="./quill/quill.snow.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/monokai-sublime.min.css">
+  <link rel="stylesheet" href="./katex/katex.css">
+  <link rel="stylesheet" href="./quill/quill.snow.css">
+  <link rel="stylesheet" href="./quill/quill.bubble.css">
+
+  <!-- Include the Quill library -->
+  <script src="./quill/quill.js"></script>
+
+  <!-- Initialize Quill editor -->
+  <script src="./katex/katex.js"></script>
+  <script src="./js/highlight.min.js"></script>
+  <script src="./js/jquery.min.js"></script>
+</head>
+
+<body>
+  <!-- Create the toolbar container -->
+  <div id="toolbar">
+  <!-- <button class="ql-bold">Bold</button>
+  <button class="ql-italic">Italic</button> -->
+  </div>
+
+  <!-- Create the editor container -->
+  <div class="standalone-container">
+    <div id="editor-container">
+      <p></p>
+    </div>
+  </div>
+
+  <!-- warning: must do this after dom initial -->
+  <script src="./js/global.js"></script>
+
+</body>
+</html>

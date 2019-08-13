@@ -1,0 +1,7 @@
+.standalone-container {
+  margin: 20px auto;
+  max-width: 720px;
+}
+#editor-container {
+  height: 350px;
+}
