@@ -66,7 +66,7 @@ var toolbarOptions = [
   ['clean']                                         // remove formatting button
 ];
 
-var Font = Quill.import('formats/font'); 
+var Font = Quill.import('attributors/class/font'); 
 Font.whitelist = f; //将字体加入到白名单 
 Quill.register(Font, true);
 
